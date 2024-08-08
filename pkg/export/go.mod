@@ -1,7 +1,3 @@
-module github.com/test-network-function/simplegraphsolver/pkg/export
+module github.com/redhat-best-practices-for-k8s/simplegraphsolver/pkg/export
 
-go 1.21.3
-
-replace github.com/test-network-function/l2discovery/l2lib/pkg/export => ../../../l2discoverydavid/l2lib/pkg/export
-
-require github.com/test-network-function/l2discovery/l2lib/pkg/export v0.0.0-00010101000000-000000000000
+go 1.22.5

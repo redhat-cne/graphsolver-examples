@@ -1,8 +1,8 @@
 package main
 
 import (
-	l2lib "github.com/test-network-function/l2discovery/l2lib/pkg/export"
-	"github.com/test-network-function/simplegraphsolver/pkg/lib"
+	l2lib "github.com/redhat-best-practices-for-k8s/l2discovery/l2lib/pkg/export"
+	"github.com/redhat-best-practices-for-k8s/simplegraphsolver/pkg/lib"
 )
 
 type testGraph struct {

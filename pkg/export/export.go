@@ -1,7 +1,7 @@
 package export
 
 import (
-	l2lib "github.com/test-network-function/l2discovery/l2lib/pkg/export"
+	l2lib "github.com/redhat-best-practices-for-k8s/l2discovery/l2lib/pkg/export"
 )
 
 type SolverConfig interface {

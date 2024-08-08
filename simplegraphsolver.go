@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/openshift/ptp-operator/test/utils/client"
-	lib "github.com/test-network-function/graphsolver-lib"
-	l2lib "github.com/test-network-function/l2discovery-lib"
+	"github.com/openshift/ptp-operator/test/pkg/client"
+	lib "github.com/redhat-best-practices-for-k8s/graphsolver-lib"
+	l2lib "github.com/redhat-best-practices-for-k8s/l2discovery-lib"
 )
 
 // Runs Solver to find optimal configurations
