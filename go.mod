@@ -6,7 +6,7 @@ replace k8s.io/client-go => k8s.io/client-go v0.29.7
 
 require (
 	github.com/openshift/ptp-operator v0.0.0-20240719170405-a3502a34dbd8
-	github.com/redhat-best-practices-for-k8s/graphsolver-lib v0.0.4
+	github.com/redhat-best-practices-for-k8s/graphsolver-lib v0.0.5
 	github.com/redhat-best-practices-for-k8s/l2discovery-lib v0.0.10
 )
 
@@ -48,7 +48,7 @@ require (
 	github.com/prometheus/common v0.44.0 // indirect
 	github.com/prometheus/procfs v0.10.1 // indirect
 	github.com/redhat-best-practices-for-k8s/graphsolver-exports v0.0.2 // indirect
-	github.com/redhat-best-practices-for-k8s/l2discovery-exports v0.0.4 // indirect
+	github.com/redhat-best-practices-for-k8s/l2discovery-exports v0.0.5 // indirect
 	github.com/redhat-best-practices-for-k8s/privileged-daemonset v1.0.31 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect

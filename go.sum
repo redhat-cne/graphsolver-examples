@@ -1140,10 +1140,10 @@ github.com/prometheus/procfs v0.10.1/go.mod h1:nwNm2aOCAYw8uTR/9bWRREkZFxAUcWzPH
 github.com/prometheus/tsdb v0.7.1/go.mod h1:qhTCs0VvXwvX/y3TZrWD7rabWM+ijKTux40TwIPHuXU=
 github.com/redhat-best-practices-for-k8s/graphsolver-exports v0.0.2 h1:SJnXD40jEFBCWT8ZjmJOFJdIzMwWPbrIUCAQu1oXfYQ=
 github.com/redhat-best-practices-for-k8s/graphsolver-exports v0.0.2/go.mod h1:Vl268nAHQKEnIw7GIYehp3Lx4qYP8+rOlwGsWxD/aO4=
-github.com/redhat-best-practices-for-k8s/graphsolver-lib v0.0.4 h1:541I5wcounFu3P/5YmWjrpNOH50KwalGKHBer41Tjj8=
-github.com/redhat-best-practices-for-k8s/graphsolver-lib v0.0.4/go.mod h1:IK4i8ZBV16s/EVD+EpOrubdbSGqcryRV7eah0gcl5sg=
-github.com/redhat-best-practices-for-k8s/l2discovery-exports v0.0.4 h1:66qE0Vj/8vWvt8yaVq1yJK5+OOELGZdlCwzHkXRxFr4=
-github.com/redhat-best-practices-for-k8s/l2discovery-exports v0.0.4/go.mod h1:NO9mpaj5neVKarRGcsL5SHVFb+uYUoCC8uVbuT419xs=
+github.com/redhat-best-practices-for-k8s/graphsolver-lib v0.0.5 h1:fQosG3BVSPtrwWVlkhzy6hG1DI0XWnPiji3rH26fOZ4=
+github.com/redhat-best-practices-for-k8s/graphsolver-lib v0.0.5/go.mod h1:mC3UWsh4og6QNFrFQl7XGe0VNyvhCfl/yJAZXTuZRWQ=
+github.com/redhat-best-practices-for-k8s/l2discovery-exports v0.0.5 h1:0X6pIv4tMsSquGS4m+xgmzFGIm16Snj2ErmnpoYqLog=
+github.com/redhat-best-practices-for-k8s/l2discovery-exports v0.0.5/go.mod h1:NO9mpaj5neVKarRGcsL5SHVFb+uYUoCC8uVbuT419xs=
 github.com/redhat-best-practices-for-k8s/l2discovery-lib v0.0.10 h1:UYkBfQmuyy3j+0phBchet07elcTCy9E0VymAkkSkfPA=
 github.com/redhat-best-practices-for-k8s/l2discovery-lib v0.0.10/go.mod h1:ZZkfTKPJQTW0Zq7ANCBnNTf+RSvkl4JypSP9KJaV8mY=
 github.com/redhat-best-practices-for-k8s/privileged-daemonset v1.0.31 h1:LBb6aB2zGUPyROM/C5LOOLvVtGfM4PxvLI5rW0q4ja4=
