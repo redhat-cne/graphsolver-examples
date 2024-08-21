@@ -2,15 +2,15 @@ package main
 
 import (
 	"github.com/openshift/ptp-operator/test/pkg/client"
-	lib "github.com/redhat-best-practices-for-k8s/graphsolver-lib"
-	l2lib "github.com/redhat-best-practices-for-k8s/l2discovery-lib"
+	lib "github.com/redhat-cne/graphsolver-lib"
+	l2lib "github.com/redhat-cne/l2discovery-lib"
 )
 
 // Runs Solver to find optimal configurations
 func main() {
 	const (
 		// problem/scenario name
-		findOCProblemName = "OC"
+		findOCProblemName = "interfaces connected via a LAN"
 
 		// unique id for each tag, e.g. solution role
 		tagSlave       = 0
@@ -24,7 +24,7 @@ func main() {
 	l2lib.GlobalL2DiscoveryConfig.SetL2Client(client.Client, client.Client.Config)
 
 	// Collect L2 info
-	config, err := l2lib.GlobalL2DiscoveryConfig.GetL2DiscoveryConfig(true)
+	config, err := l2lib.GlobalL2DiscoveryConfig.GetL2DiscoveryConfig(false, true, "quay.io/redhat-cne/l2discovery:latest")
 	if err != nil {
 		return
 	}
