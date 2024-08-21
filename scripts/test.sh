@@ -18,6 +18,8 @@ make build
 kind delete cluster --name test-cluster || true
 kind create cluster --name test-cluster --config kind-config.yaml
 
+export KUBECONFIG=~/.kube/config
+
 ./simplegraphsolver 2>&1 | sed 's/veth[a-zA-Z0-9]\+/veth/g' | sed 's/time="[^"]*" //' >test/actual.txt
 
 diff test/actual.txt test/expected.txt

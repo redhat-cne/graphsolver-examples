@@ -15,5 +15,7 @@ lint-all:
 	$(MAKE) lint -C ./pkg/lib
 	$(MAKE) lint -C ./pkg/export
 	$(MAKE) lint -C ./examples/basic
+vet:
+	go vet ${GO_PACKAGES}
 test:
 	./scripts/test.sh
