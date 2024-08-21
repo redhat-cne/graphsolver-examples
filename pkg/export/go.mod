@@ -1,3 +1,3 @@
-module github.com/redhat-best-practices-for-k8s/simplegraphsolver/pkg/export
+module github.com/redhat-cne/simplegraphsolver/pkg/export
 
 go 1.22.5

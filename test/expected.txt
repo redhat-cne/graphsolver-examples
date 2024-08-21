@@ -1,0 +1,29 @@
+level=info msg="Will skip the following interfaces in every nodes: []"
+level=info msg="LANs connectivity map: [[0 4 5] [1] [2] [3]]"
+level=info msg="List All NICS (node name: interface)"
+level=info msg="0 test-cluster-control-plane : eth0"
+level=info msg="1 test-cluster-control-plane : veth"
+level=info msg="2 test-cluster-control-plane : veth"
+level=info msg="3 test-cluster-control-plane : veth"
+level=info msg="4 test-cluster-worker : eth0"
+level=info msg="5 test-cluster-worker2 : eth0"
+level=info msg="NIC num: 6"
+level=info msg="Solutions for interfaces connected via a LAN problem"
+level=info msg="p0= test-cluster-control-plane : eth0"
+level=info msg="p1= test-cluster-worker : eth0"
+level=info msg=---
+level=info msg="p0= test-cluster-control-plane : eth0"
+level=info msg="p1= test-cluster-worker2 : eth0"
+level=info msg=---
+level=info msg="p0= test-cluster-worker : eth0"
+level=info msg="p1= test-cluster-control-plane : eth0"
+level=info msg=---
+level=info msg="p0= test-cluster-worker : eth0"
+level=info msg="p1= test-cluster-worker2 : eth0"
+level=info msg=---
+level=info msg="p0= test-cluster-worker2 : eth0"
+level=info msg="p1= test-cluster-worker : eth0"
+level=info msg=---
+level=info msg="p0= test-cluster-worker2 : eth0"
+level=info msg="p1= test-cluster-control-plane : eth0"
+level=info msg=---

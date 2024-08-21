@@ -1,3 +1,4 @@
+.PHONY: all clean test build
 lint:
 	golangci-lint run
 # Install golangci-lint	
@@ -14,3 +15,5 @@ lint-all:
 	$(MAKE) lint -C ./pkg/lib
 	$(MAKE) lint -C ./pkg/export
 	$(MAKE) lint -C ./examples/basic
+test:
+	./scripts/test.sh
