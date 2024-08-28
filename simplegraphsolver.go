@@ -24,7 +24,7 @@ func main() {
 	l2lib.GlobalL2DiscoveryConfig.SetL2Client(client.Client, client.Client.Config)
 
 	// Collect L2 info
-	config, err := l2lib.GlobalL2DiscoveryConfig.GetL2DiscoveryConfig(false, true, "quay.io/redhat-cne/l2discovery:latest")
+	config, err := l2lib.GlobalL2DiscoveryConfig.GetL2DiscoveryConfig(false, true, true, "quay.io/redhat-cne/l2discovery:latest")
 	if err != nil {
 		return
 	}

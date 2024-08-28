@@ -11,7 +11,7 @@ replace (
 require (
 	github.com/openshift/ptp-operator v0.0.0-20240820132422-340fb8f46533
 	github.com/redhat-cne/graphsolver-lib v0.0.5
-	github.com/redhat-cne/l2discovery-lib v0.0.12
+	github.com/redhat-cne/l2discovery-lib v0.0.14
 )
 
 require (
@@ -53,7 +53,7 @@ require (
 	github.com/prometheus/procfs v0.10.1 // indirect
 	github.com/redhat-cne/graphsolver-exports v0.0.2 // indirect
 	github.com/redhat-cne/l2discovery-exports v0.0.4 // indirect
-	github.com/redhat-cne/privileged-daemonset v1.0.33 // indirect
+	github.com/redhat-cne/privileged-daemonset v1.0.34 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/yourbasic/graph v0.0.0-20210606180040-8ecfec1c2869 // indirect
@@ -76,7 +76,7 @@ require (
 	k8s.io/component-base v0.28.3 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
-	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
+	k8s.io/utils v0.0.0-20240821151609-f90d01438635 // indirect
 	sigs.k8s.io/controller-runtime v0.16.3 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect

@@ -1143,10 +1143,10 @@ github.com/redhat-cne/graphsolver-lib v0.0.5 h1:M/C07yZQFQCA9AStdwvlNrjWYcQuObVG
 github.com/redhat-cne/graphsolver-lib v0.0.5/go.mod h1:hOlp1RlLrwb9ZqmX4lcknGobuKFQxIByx+ugTtAwfj4=
 github.com/redhat-cne/l2discovery-exports v0.0.4 h1:oYZlk0lXEnLTO8nxnL1G54L+KdQ1WyA5zZFJln9/8uA=
 github.com/redhat-cne/l2discovery-exports v0.0.4/go.mod h1:hYvCYXSfngU/j+auFobgvKcwiu5DurO2BnUBoSmg/NA=
-github.com/redhat-cne/l2discovery-lib v0.0.12 h1:BxYojiqBHGoIm6FRsJLqeFX08cc8VhGfltHB0l05mEU=
-github.com/redhat-cne/l2discovery-lib v0.0.12/go.mod h1:GKU2pALLk3vK0GlogVdZM+NP0JuvzoaJl0ZqV3GQ3BA=
-github.com/redhat-cne/privileged-daemonset v1.0.33 h1:QQeb55Ug0eVl0tREpnuCnMDDNebDMyDzOcFho6Gbmdg=
-github.com/redhat-cne/privileged-daemonset v1.0.33/go.mod h1:e6s1NtANXwNX0MOJxVLx2dMLXbyj54w1xO1Jn3CEGyA=
+github.com/redhat-cne/l2discovery-lib v0.0.14 h1:qiOWV25h+Ym/7XtutpoGw8Gmi3oAsyMpumvbnMloV0s=
+github.com/redhat-cne/l2discovery-lib v0.0.14/go.mod h1:P1QnQ8F/e9p7injHbWPbPikOCmGpcRksSxXiS1YQUpE=
+github.com/redhat-cne/privileged-daemonset v1.0.34 h1:wcffXvaz5PwvAZfq62WiMXi0N+gXFlEFXkK4CcdjshU=
+github.com/redhat-cne/privileged-daemonset v1.0.34/go.mod h1:poRO1Giq9rH4JD8/KLxRJobOARGxmPr8xAIwhSrZGRQ=
 github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=
 github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af/go.mod h1:XWv6SoW27p1b0cqNHllgS5HIMJraePCO15w5zCzIWYg=
 github.com/rogpeppe/fastuuid v1.2.0/go.mod h1:jVj6XXZzXRy/MSR5jhDC/2q6DgLz+nrA6LYCDYWNEvQ=
@@ -2093,8 +2093,8 @@ k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340/go.mod h1:yD4MZYeKMBwQKVh
 k8s.io/utils v0.0.0-20210802155522-efc7438f0176/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
 k8s.io/utils v0.0.0-20211116205334-6203023598ed/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
 k8s.io/utils v0.0.0-20230726121419-3b25d923346b/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
-k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 h1:pUdcCO1Lk/tbT5ztQWOBi5HBgbBP1J8+AsQnQCKsi8A=
-k8s.io/utils v0.0.0-20240711033017-18e509b52bc8/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
+k8s.io/utils v0.0.0-20240821151609-f90d01438635 h1:2wThSvJoW/Ncn9TmQEYXRnevZXi2duqHWf5OX9S3zjI=
+k8s.io/utils v0.0.0-20240821151609-f90d01438635/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
 lukechampine.com/uint128 v1.1.1/go.mod h1:c4eWIwlEGaxC/+H1VguhU4PHXNWDCDMUlWdIWl2j1gk=
 lukechampine.com/uint128 v1.2.0/go.mod h1:c4eWIwlEGaxC/+H1VguhU4PHXNWDCDMUlWdIWl2j1gk=
 modernc.org/cc/v3 v3.36.0/go.mod h1:NFUHyPn4ekoC/JHeZFfZurN6ixxawE1BnVonP/oahEI=
